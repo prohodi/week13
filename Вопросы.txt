@@ -1,0 +1,29 @@
+1.	let date = new Date(2021, 0, 24, 22, 51); 
+    console.log(date); 
+
+2.	Вернёт день недели от 0 (воскресенье) до 6 (суббота).
+
+3.	
+    let now = new Date();
+    let nowSeconds=(now.getHours()*60*60)+(now.getMinutes()*60)+now.getSeconds();
+    console.log(nowSeconds);
+
+    let AllsecondsInDay=24*60*60
+    console.log(AllsecondsInDay);
+
+    let differenceSeconds=AllsecondsInDay-nowSeconds;
+    console.log(differenceSeconds);
+
+4.	Позволяет получить часть из даты, а именно, день месяца от 1 до 31
+
+5.	Выведет 9 марта 2016 года, 0 минут,0 часов, 0 секунд
+
+6.	Метод getTimezoneOffset() возвращает разницу во времени между временем UTC и местным временем в минутах
+
+7.	Выведет часы лондонского времени (стандарт UTC 0)
+
+8.	Чтобы получить часы из даты
+
+9.	Получаем год текущего времени
+
+10.	Скорее всего стояла задача получить дату, а при этом коде мы получим лишь день месяца
